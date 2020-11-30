@@ -1,0 +1,88 @@
+.body {
+    text-align: center;
+}
+
+.navigation-box {
+    background-color: #6EE7B7;
+    color: white;
+    text-decoration: none;
+    padding: 5px 8px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+}
+
+.navigation-box .navigation-ul {
+    display: inline-flex;
+    /* text-align: center; */
+    text-align: right;
+}
+
+.navigation-box .navigation-ul .navigation-list {
+    list-style: none;
+    /* text-align: right; */
+    /* display: flex; */
+    text-align: right;
+    padding: 4px 6px;
+    font-size: 20px;
+}
+
+.navigation-box .navigation-ul .navigation-list:hover {
+    background-color: darkcyan;
+}
+
+.navigation-box .navigation-ul .navigation-list:active {
+    background-color: darkcyan;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.my-interests {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.my-interests .my-interests-img {
+    /* border-radius: 10px; */
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+}
+
+.languages-known {
+    background-color: #D1D5DB;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.languages-known .languages-known-img {
+    width: 400px;
+    height: 500px;
+}
+
+.languages-known .list-nonbullet {
+    list-style: none;
+    text-align: center;
+}
+
+.My-Projects {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.My-Projects .Projects-img {
+    width: 400px;
+    height: 500px;
+}
+
+.My-Blogs {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.My-Blogs .Blogs-img {
+    width: 400px;
+    height: 500px;
+}
