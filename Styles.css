@@ -33,6 +33,12 @@
         padding: 1.5rem 1rem;
     }
     
+    @media only screen and (max-width: 480px) {
+        .navigation-box {
+            flex-direction: column;
+        }
+    }
+    
     .navigation-box .navigation-list {
         display: flex;
         justify-content: flex-end;
@@ -226,15 +232,13 @@
     .blogs-content {
         text-align: center;
         font-family: 'Roboto', sans-serif;
-        padding: 5rem 5rem;
+        padding: 5rem;
     }
     
     .blogs-content .blog-image-big {
-        height: 400px;
-        width: 750px;
+        width: 100%;
     }
     
     .blogs-content .blog-image {
-        height: 300px;
-        width: 400px;
+        width: 100%;
     }
