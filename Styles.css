@@ -3,12 +3,15 @@
 } */
     
     h1 {
-        font-family: 'Fjalla One', sans-serif;
-        font-family: 'Source Code Pro', monospace;
+        font-family: 'Roboto', sans-serif;
     }
     
     h2 {
         color: #064E3B;
+    }
+    
+    ul {
+        margin: 0;
     }
     
     li {
@@ -25,8 +28,9 @@
         padding: 5px 10px 0px 10px;
         border-bottom-left-radius: 2rem;
         font-size: 1.5rem;
-        /* font-family: 'Ubuntu', sans-serif; */
-        /* font-family: 'Work Sans', sans-serif; */
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 1rem;
     }
     
     .navigation-box .navigation-list {
@@ -74,8 +78,7 @@
     .my-interests {
         text-align: center;
         padding: 3rem 3rem;
-        font-family: 'Ubuntu', sans-serif;
-        font-family: 'Work Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
     
     .my-interests .my-interests-img {
@@ -94,8 +97,7 @@
         /* text-align: none; */
         text-align: center;
         padding: 2rem 2rem;
-        font-family: 'Ubuntu', sans-serif;
-        font-family: 'Work Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
     
     .languages-known .languages-known-img {
@@ -111,15 +113,13 @@
         /* text-align: center; */
         /* margin: auto; */
         /* font-size: 2rem 2rem; */
-        font-family: 'Ubuntu', sans-serif;
-        font-family: 'Work Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
     
     .My-Projects {
         text-align: center;
         padding: 3rem 3rem;
-        font-family: 'Ubuntu', sans-serif;
-        font-family: 'Work Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         /* background-color: ; */
     }
     
@@ -132,8 +132,7 @@
         text-align: center;
         padding: 3rem 3rem;
         background-color: #D1D5DB;
-        font-family: 'Ubuntu', sans-serif;
-        font-family: 'Work Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
     
     .My-Blogs .Blogs-img {
@@ -156,8 +155,11 @@
         text-align: center;
         padding: 3rem 3rem;
         font-size: 10rem 10rem;
-        font-family: 'Ubuntu', sans-serif;
-        font-family: 'Work Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .footer-box-contact {
+        font-family: 'Roboto', sans-serif;
     }
     
     .linkedin-img {
@@ -187,13 +189,13 @@
         width: 300px;
         text-align: center;
         padding: 3rem 3rem;
-        font-family: 'Ubuntu', sans-serif;
-        font-family: 'Work Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
     
     .projects-completed {
         text-align: center;
         list-style: none;
+        font-family: 'Roboto', sans-serif;
     }
     
     .projects-completed .Primary-link {
@@ -219,4 +221,20 @@
     
     .projects-completed .Secondary-link :hover {
         background-color: #6ee7b7;
+    }
+    
+    .blogs-content {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        padding: 5rem 5rem;
+    }
+    
+    .blogs-content .blog-image-big {
+        height: 400px;
+        width: 750px;
+    }
+    
+    .blogs-content .blog-image {
+        height: 300px;
+        width: 400px;
     }
