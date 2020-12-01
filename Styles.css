@@ -1,170 +1,221 @@
-.body {
+    /* body {
     text-align: center;
-}
-
-h2 {
-    color: #047857;
-}
-
-li {
-    color: black;
-}
-
-.navigation-box {
-    background-color: #6EE7B7;
-    color: #374151;
-    text-decoration: none;
-    padding: 3px 4px;
-    border-bottom-left-radius: 2rem;
-    font-size: 1.5rem;
-    /* font-family: 'Ubuntu', sans-serif; */
-    /* font-family: 'Work Sans', sans-serif; */
-}
-
-.navigation-box .navigation-list {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.navigation-box .navigation-list .navigation-list-list {
-    list-style: none;
-    /* text-align: right; */
-    /* display: flex; */
-    text-align: right;
-    padding: 1rem 0rem;
-    font-size: 20px;
-    /* color: white; */
-}
-
-.navigation-list-link {
-    color: black;
-    text-decoration: none;
-    background-color: #6EE7B7;
-    padding: 1rem 1rem;
-    border-radius: 1rem 1rem;
-}
-
-.navigation-list-link:hover {
-    background-color: darkcyan;
-}
-
-.link {
-    color: black;
-    text-decoration: none;
-    background-color: #6EE7B7;
-    padding: 1rem 1rem;
-    border-radius: 2rem 2rem;
-    font-size: 1rem;
-    /* font-family: 'Work Sans', sans-serif; */
-}
-
-.link :hover {
-    background-color: darkcyan;
-}
-
-.my-interests {
-    text-align: center;
-    padding: 3rem 3rem;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.my-interests .my-interests-img {
-    /* border-radius: 10px; */
-    border-radius: 2rem;
-    width: 300px;
-    height: 350px;
-}
-
-.my-interests .my-interests-heading {
-    color: blueviolet;
-}
-
-.languages-known {
-    background-color: #D1D5DB;
-    /* text-align: none; */
-    text-align: center;
-    padding: 2rem 2rem;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.languages-known .languages-known-img {
-    width: 300px;
-    height: 350px;
-}
-
-.list-nonbullet {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: flex-start ; */
-    list-style: none;
-    /* text-align: center; */
-    /* margin: auto; */
-    /* font-size: 2rem 2rem; */
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.My-Projects {
-    text-align: center;
-    padding: 3rem 3rem;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-    /* background-color: ; */
-}
-
-.My-Projects .Projects-img {
-    width: 300px;
-    height: 350px;
-}
-
-.My-Blogs {
-    text-align: center;
-    padding: 3rem 3rem;
-    background-color: #D1D5DB;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.My-Blogs .Blogs-img {
-    width: 300px;
-    height: 350px;
-}
-
-.my-hobbies {
-    text-align: center;
-    padding: 3rem 3rem;
-}
-
-.my-hobbies-img {
-    height: 350px;
-    width: 300px;
-}
-
-.footer-box {
-    background-color: #6EE7B7;
-    text-align: center;
-    padding: 3rem 3rem;
-    font-size: 10rem 10rem;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.linkedin-img {
-    width: 2rem;
-    height: 2rem;
-    padding: 0rem 1rem;
-}
-
-.twitter-img {
-    width: 2rem;
-    height: 2rem;
-    padding: 0rem 1rem;
-}
-
-.github-img {
-    width: 2rem;
-    height: 2rem;
-    padding: 0rem 1rem;
-}
+} */
+    
+    h1 {
+        font-family: 'Fjalla One', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+    }
+    
+    h2 {
+        color: #047857;
+    }
+    
+    li {
+        color: black;
+    }
+    /* p {
+        font-family: 'Source Code Pro', monospace;
+    } */
+    
+    .navigation-box {
+        background-color: #6EE7B7;
+        color: #374151;
+        text-decoration: none;
+        padding: 3px 4px;
+        border-bottom-left-radius: 2rem;
+        font-size: 1.5rem;
+        /* font-family: 'Ubuntu', sans-serif; */
+        /* font-family: 'Work Sans', sans-serif; */
+    }
+    
+    .navigation-box .navigation-list {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .navigation-box .navigation-list .navigation-list-list {
+        list-style: none;
+        /* text-align: right; */
+        /* display: flex; */
+        text-align: right;
+        padding: 1rem 0rem;
+        font-size: 20px;
+        /* color: white; */
+    }
+    
+    .navigation-list-link {
+        color: black;
+        text-decoration: none;
+        background-color: #6EE7B7;
+        padding: 1rem 1rem;
+        border-radius: 1rem 1rem;
+    }
+    
+    .navigation-list-link:hover {
+        background-color: darkcyan;
+    }
+    
+    .link {
+        color: black;
+        text-decoration: none;
+        background-color: #6EE7B7;
+        padding: 1rem 1rem;
+        border-radius: 2rem 2rem;
+        font-size: 1rem;
+        /* font-family: 'Work Sans', sans-serif; */
+    }
+    
+    .link :hover {
+        background-color: darkcyan;
+    }
+    
+    .my-interests {
+        text-align: center;
+        padding: 3rem 3rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .my-interests .my-interests-img {
+        /* border-radius: 10px; */
+        border-radius: 2rem;
+        width: 300px;
+        height: 350px;
+    }
+    
+    .my-interests .my-interests-heading {
+        color: blueviolet;
+    }
+    
+    .languages-known {
+        background-color: #D1D5DB;
+        /* text-align: none; */
+        text-align: center;
+        padding: 2rem 2rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .languages-known .languages-known-img {
+        width: 300px;
+        height: 350px;
+    }
+    
+    .list-nonbullet {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-start ; */
+        list-style: none;
+        /* text-align: center; */
+        /* margin: auto; */
+        /* font-size: 2rem 2rem; */
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .My-Projects {
+        text-align: center;
+        padding: 3rem 3rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+        /* background-color: ; */
+    }
+    
+    .My-Projects .Projects-img {
+        width: 300px;
+        height: 350px;
+    }
+    
+    .My-Blogs {
+        text-align: center;
+        padding: 3rem 3rem;
+        background-color: #D1D5DB;
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .My-Blogs .Blogs-img {
+        width: 300px;
+        height: 350px;
+    }
+    
+    .my-hobbies {
+        text-align: center;
+        padding: 3rem 3rem;
+    }
+    
+    .my-hobbies-img {
+        height: 350px;
+        width: 300px;
+    }
+    
+    .footer-box {
+        background-color: #6EE7B7;
+        text-align: center;
+        padding: 3rem 3rem;
+        font-size: 10rem 10rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .linkedin-img {
+        width: 2rem;
+        height: 2rem;
+        padding: 0rem 1rem;
+    }
+    
+    .twitter-img {
+        width: 2rem;
+        height: 2rem;
+        padding: 0rem 1rem;
+    }
+    
+    .github-img {
+        width: 2rem;
+        height: 2rem;
+        padding: 0rem 1rem;
+    }
+    
+    .projects-header {
+        text-align: center;
+    }
+    
+    .projects-header .projects-header-img {
+        height: 350px;
+        width: 300px;
+        text-align: center;
+        padding: 3rem 3rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .projects-completed {
+        text-align: center;
+        list-style: none;
+    }
+    
+    .projects-completed .Primary-link {
+        color: white;
+        text-decoration: none;
+        background-color: #6ee7b7;
+        padding: 0.5rem 0.5rem;
+        border-radius: 1rem 1rem;
+        font-size: 1rem;
+        border: 1px solid white;
+        /* border: 1px solid #6ee7b7; */
+    }
+    
+    .projects-completed .Secondary-link {
+        color: #6ee7b7;
+        text-decoration: none;
+        background-color: white;
+        padding: 0.5rem 0.5rem;
+        border-radius: 1rem 1rem;
+        font-size: 1rem;
+        border: 1px solid #6ee7b7;
+    }
+    
+    .projects-completed .Secondary-link :hover {
+        background-color: #6ee7b7;
+    }
