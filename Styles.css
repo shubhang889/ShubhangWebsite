@@ -237,10 +237,12 @@ li {
 
 .blogs-content .blog-image-big {
     width: 75%;
+    border-radius: 1rem;
 }
 
 .blogs-content .blog-image {
     width: 50%;
+    border-radius: 1rem;
 }
 
 .blog-list {
